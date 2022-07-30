@@ -33,9 +33,10 @@ main {
 
 .card {
   height: 300px;
-  margin: 1em;
+  margin: .5em;
   aspect-ratio: 202/374;
   border: 5px solid white;
+  border-bottom: 5px solid rgb(0, 0, 0, .3);
 }
 
 .card:hover {
