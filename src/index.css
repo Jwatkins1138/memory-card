@@ -11,3 +11,143 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+header {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  padding-right: 5em;
+  padding-left: 5em;
+  border-bottom: 2px solid rgb(0, 0, 0, .2);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.card-area {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70vw;
+}
+
+.card {
+  height: 300px;
+  margin: 1em;
+  aspect-ratio: 202/374;
+  border: 5px solid white;
+}
+
+.card:hover {
+  border: 5px solid rgb(218, 165, 32, .2);
+}
+
+#zero {
+  background: url("../public/cards/0.jpg");
+  background-size: cover;
+}
+
+#one {
+  background: url("../public/cards/1.jpg");
+  background-size: cover;
+}
+
+#two {
+  background: url("../public/cards/2.jpg");
+  background-size: cover;
+}
+
+#three {
+  background: url("../public/cards/3.jpg");
+  background-size: cover;
+}
+
+#four {
+  background: url("../public/cards/4.jpg");
+  background-size: cover;
+}
+
+#five {
+  background: url("../public/cards/5.jpg");
+  background-size: cover;
+}
+
+#six {
+  background: url("../public/cards/6.jpg");
+  background-size: cover;
+}
+
+#seven {
+  background: url("../public/cards/7.jpg");
+  background-size: cover;
+}
+
+#eight {
+  background: url("../public/cards/8.jpg");
+  background-size: cover;
+}
+
+#nine {
+  background: url("../public/cards/9.jpg");
+  background-size: cover;
+}
+
+#ten {
+  background: url("../public/cards/10.jpg");
+  background-size: cover;
+}
+
+#eleven {
+  background: url("../public/cards/11.jpg");
+  background-size: cover;
+}
+
+#twelve {
+  background: url("../public/cards/12.jpg");
+  background-size: cover;
+}
+
+#thirteen {
+  background: url("../public/cards/13.jpg");
+  background-size: cover;
+}
+
+#fourteen {
+  background: url("../public/cards/14.jpg");
+  background-size: cover;
+}
+
+#fifteen {
+  background: url("../public/cards/15.jpg");
+  background-size: cover;
+}
+
+#sixteen {
+  background: url("../public/cards/16.jpg");
+  background-size: cover;
+}
+
+#seventeen {
+  background: url("../public/cards/17.jpg");
+  background-size: cover;
+}
+
+#eighteen {
+  background: url("../public/cards/18.jpg");
+  background-size: cover;
+}
+
+#nineteen {
+  background: url("../public/cards/18.jpg");
+  background-size: cover;
+}
+
+#twenty {
+  background: url("../public/cards/18.jpg");
+  background-size: cover;
+}
+
+#twentyone {
+  background: url("../public/cards/18.jpg");
+  background-size: cover;
+}
