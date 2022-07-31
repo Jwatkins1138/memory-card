@@ -15,9 +15,12 @@ code {
 header {
   padding-top: 2em;
   padding-bottom: 2em;
-  padding-right: 5em;
-  padding-left: 5em;
+  padding-right: 12em;
+  padding-left: 12em;
   border-bottom: 2px solid rgb(0, 0, 0, .2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 main {
@@ -31,17 +34,30 @@ main {
   width: 70vw;
 }
 
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+
+.card-container:hover {
+  background: radial-gradient(closest-side, purple, white);
+  background-size: cover;
+}
+
 .card {
   height: 300px;
-  margin: .5em;
   aspect-ratio: 202/374;
-  border: 5px solid white;
-  border-bottom: 5px solid rgb(0, 0, 0, .3);
+  border-radius: 5%;
+  transform: none;
+  transition: transform .3s ease-in-out;
 }
 
 .card:hover {
-  border: 5px solid rgb(218, 165, 32, .2);
+  transform: scale(98%);
 }
+
 
 #zero {
   background: url("./cards/0.jpg");

@@ -39,5 +39,7 @@
   },
   "devDependencies": {
     "gh-pages": "^4.0.0"
-  }
+  },
+
+  "homepage": "http://Jwatkins1138.github.io/memory-card"
 }
