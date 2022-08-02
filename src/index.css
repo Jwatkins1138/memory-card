@@ -21,11 +21,47 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background: radial-gradient(circle, gold, white);
+}
+
+.score {
+  padding: .5em;
+  margin: .5em;
+  border-bottom: 1px solid rgb(128, 0, 128, .3);
+}
+
+button {
+  background: none;
+  padding: .5em;
+  margin: 1em;
+  border: 1px solid black;
+}
+
+button:hover {
+  background: rgb(128, 0, 128, .3);
 }
 
 main {
   display: flex;
   justify-content: center;
+}
+
+.about {
+  width: 30vw;
+  margin-top: 5em;
+  padding: 1em;
+  border-radius: 5%;
+  border: 1px solid rgb(128, 0, 128, .3);;
+}
+
+.about-footer {
+  display: flex;
+  justify-content: center;
+}
+
+.about-card {
+  max-width: 15vw;
+  width: 100%;
 }
 
 .card-area {
