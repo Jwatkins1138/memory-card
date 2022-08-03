@@ -79,7 +79,6 @@ const GameBoard = (props) => {
   }
 
   useEffect(() => {
-    initialize();
     shuffle();
   }, []);
 
