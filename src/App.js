@@ -40,8 +40,8 @@ function App() {
       <header>
         <h1>memory card</h1>
         <div className="score-box">
-          <div className="score">current score: {score}</div>
-          <div className="score">high score: {hiScore}</div>
+          <div className="score"><span>current score:  </span><span>{score}</span></div>
+          <div className="score"><span>high score:  </span><span>{hiScore}</span></div>
           <div className="about-button"><button onClick={toggleMode}>about</button></div>
         </div>
         

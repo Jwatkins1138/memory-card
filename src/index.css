@@ -28,6 +28,12 @@ header {
   padding: .5em;
   margin: .5em;
   border-bottom: 1px solid rgb(128, 0, 128, .3);
+  display: flex;
+  justify-content: space-between;
+}
+
+.score >* {
+  margin-right: 2em;
 }
 
 button {
