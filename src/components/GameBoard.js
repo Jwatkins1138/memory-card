@@ -69,7 +69,6 @@ const GameBoard = (props) => {
     tempCurrent.push(temp[x]);
     temp.splice(x, 1);
     temp = [...temp, ...used];
-    console.log(temp);
     while (i < 11) {
       x = randomInt(temp.length);
       tempCurrent.push(temp[x]);
